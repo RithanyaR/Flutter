@@ -28,7 +28,7 @@ class RegistrationPage extends StatefulWidget {
 }
 
 class _RegistrationPageState extends State<RegistrationPage> {
-  // Controllers for form fields
+
   final TextEditingController _nameController = TextEditingController();
   final TextEditingController _emailController = TextEditingController();
   final TextEditingController _passwordController = TextEditingController();
@@ -114,4 +114,5 @@ class _RegistrationPageState extends State<RegistrationPage> {
       ),
     );
   }
+
 }
